@@ -1,0 +1,27 @@
+{
+  "name": "hknc-ban-bot",
+  "type": "project",
+  "description": "Hong Kong New Channel Official BOT",
+  "keywords": ["telegram", "bot", "HKNC"],
+  "license": "MIT",
+  "homepage": "https://github.com/csyeung/hknc-bot-2018",
+  "support": {
+      "issues": "https://github.com/csyeung/hknc-bot-2018/issues",
+      "source": "https://github.com/csyeung/hknc-bot-2018"
+  },
+  "authors": [
+      {
+          "name": "Jonathan YEUNG",
+          "homepage": "https://github.com/csyeung/hknc-bot-2018",
+          "role": "NEET"
+      }
+  ],
+  "autoload": {
+      "psr-4": {
+          "Commands\\": "commands"
+      }
+  },
+  "require": {
+    "php-telegram-bot/telegram-bot-manager": "*"
+  }
+}
